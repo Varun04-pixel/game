@@ -1,0 +1,136 @@
+body {
+    color: #fff;
+}
+
+#stl-inp {
+    margin: 5% 35% 0 40%;
+    border: none;
+    border-radius: 6px;
+    width: 20%;
+    height: 40px;
+    display: block;
+}
+
+#stl-btn {
+    margin: 2% 35% 0 40%;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    border-radius: 6px;
+    width: 20%;
+    height: 40px;
+}
+
+#stl-btn:hover {
+    margin: 2% 35% 0 40%;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    transform: scale(1.1);
+    transition-duration: 0.6s;
+    border-radius: 6px;
+    width: 20%;
+    height: 40px;
+}
+
+#score {
+    padding: 10px 0 10px 0;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    margin: 0 45% 0 45%;
+}
+
+#gm_score_head {
+    text-align: center;
+    display: inline;
+}
+
+#gm_score {
+    display: inline;
+}
+
+#btn1 {
+    color: #000;
+    text-align: center;
+    margin: 2% 35% 0 40%;
+    border: none;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 20%;
+    height: 40px;
+}
+
+#btn1:hover {    
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    margin: 2% 35% 0 40%;
+    border: none;
+    border-radius: 8px;
+    width: 20%;
+    height: 40px;
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.ins {
+    margin-left: 20px;
+}
+
+a {
+    color:#fff;
+}
+
+.background-live {
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media (min-aspect-ratio:16/9) {
+    .background-live {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9) {
+    .background-live {
+        width: auto;
+        height: 100%;
+    }
+}
+
+div {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#start_btn {
+    padding-top: 0;
+    color: #000;
+    margin-left: 45%;
+    margin-right: 45%;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+}
+
+#start_btn:hover {
+    cursor: pointer;
+    padding-top: 0;
+    color: #fff;
+    margin-left: 45%;
+    margin-right: 45%;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.1);
+    transition-duration: 0.6s;
+}
+
+#sml {
+    padding: 6% 0 6% 0;
+}
