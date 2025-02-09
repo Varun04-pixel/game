@@ -1,4 +1,6 @@
 let score = 11;
+
+// Start game function
 function start() {
     const random = Math.floor(Math.random() * 100);
     document.getElementById("game_head").style.display="none";
@@ -13,6 +15,7 @@ function start() {
     button.id = "stl-btn";
     document.body.appendChild(input);
     document.body.appendChild(button);
+    // Guess button function
     button.onclick = function () {
         score--;
         document.getElementById("gm_score").innerHTML=score;
@@ -33,6 +36,7 @@ function start() {
     }
 }
 
+// Restart game function
 function restart() {
     const button1 = document.createElement("button");
     button1.id = "btn1";
@@ -40,6 +44,7 @@ function restart() {
     document.body.appendChild(button1);
     document.getElementById("stl-inp").style.display = "none";
     document.getElementById("stl-btn").style.display = "none";
+    // Restart game button function
     button1.onclick = function() {
         document.getElementById("container").innerHTML="";
         document.getElementById("container1").innerHTML="";
@@ -52,6 +57,7 @@ function restart() {
     }
 }
 
+// Score function
 function sc() {
     if (score >= 8) {
         alert("You are a mind reader !!");
